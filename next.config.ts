@@ -1,10 +1,17 @@
+import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
 
+const withMDX = createMDX({
+  extension: /\.mdx?$/,
+});
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* Existing project settings */
   cacheComponents: true,
   partialPrefetching: true,
+  pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   turbopack: {
+    root: process.cwd(),
     rules: {
       "*.css": {
         loaders: ["@tailwindcss/turbopack"],
@@ -14,4 +21,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withMDX(nextConfig);
