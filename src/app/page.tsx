@@ -57,7 +57,7 @@ export default function Home() {
       <header className="border-b border-slate-200">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
           <Link href="/" className="text-xl font-bold tracking-tight">
-            VideoSave <span className="text-blue-600">Guides</span>
+            SaveThisX <span className="text-blue-600">Blog</span>
           </Link>
           <span className="text-sm text-slate-500">Practical video guides</span>
         </div>
@@ -66,7 +66,7 @@ export default function Home() {
       <section className="border-b border-slate-200 bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-blue-700">
-            The VideoSave Blog
+            The SaveThisX Blog
           </p>
           <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-6xl">
             Simple guides for saving videos.
@@ -125,7 +125,7 @@ export default function Home() {
 
       <footer className="border-t border-slate-200">
         <div className="mx-auto max-w-6xl px-6 py-8 text-sm text-slate-500">
-          VideoSave Guides — helpful information for downloading videos.
+          SaveThisX Blog — practical video download guides and troubleshooting advice.
         </div>
       </footer>
     </main>

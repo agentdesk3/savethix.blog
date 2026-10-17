@@ -5,7 +5,7 @@ import Article from "@/content/blog/how-to-download-tiktok-videos-without-waterm
 export const metadata: Metadata = {
   title: "How to Download TikTok Videos Without Watermark",
   description:
-    "Learn methods for downloading TikTok videos without watermarks, including using VideoSave for supported links.",
+    "Learn methods for downloading TikTok videos and understand the limitations of watermark-free downloads for supported links.",
   alternates: {
     canonical:
       "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-without-watermark/",
@@ -27,7 +27,7 @@ export default function TikTokNoWatermarkGuide() {
           href="/"
           className="text-sm font-semibold text-blue-700 hover:text-blue-800"
         >
-          ← VideoSave Guides
+          ← SaveThisX Blog
         </Link>
 
         <header className="mt-10 border-b border-slate-200 pb-8">

@@ -5,7 +5,7 @@ import Article from "@/content/blog/how-to-download-tiktok-videos-iphone.mdx";
 export const metadata: Metadata = {
   title: "How to Download TikTok Videos on iPhone",
   description:
-    "Learn how to save TikTok videos to your iPhone using TikTok's built-in option or VideoSave for supported links.",
+    "Learn how to save TikTok videos to your iPhone using TikTok's built-in option or SaveThisX for supported links.",
   alternates: {
     canonical:
       "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone/",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "article",
     title: "How to Download TikTok Videos on iPhone",
     description:
-      "A practical guide to saving TikTok videos on iPhone with TikTok's download option or VideoSave.",
+      "A practical guide to saving TikTok videos on iPhone with TikTok's download option or SaveThisX.",
     url: "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone/",
   },
 };
@@ -27,7 +27,7 @@ export default function TikTokIphoneGuide() {
           href="/"
           className="text-sm font-semibold text-blue-700 hover:text-blue-800"
         >
-          ← VideoSave Guides
+          ← SaveThisX Guides
         </Link>
 
         <header className="mt-10 border-b border-slate-200 pb-8">

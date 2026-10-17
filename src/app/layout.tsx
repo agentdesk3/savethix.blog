@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://blog.savethisx.net"),
   title: {
-    default: "VideoSave Guides — Practical Video Download Tutorials",
-    template: "%s | VideoSave Guides",
+    default: "SaveThisX Blog — Video Download Guides",
+    template: "%s | SaveThisX Blog",
   },
   description:
     "Practical guides to downloading and saving videos on iPhone, Android, and desktop, with helpful troubleshooting advice.",

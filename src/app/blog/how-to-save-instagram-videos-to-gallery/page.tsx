@@ -27,7 +27,7 @@ export default function InstagramGalleryGuide() {
           href="/"
           className="text-sm font-semibold text-blue-700 hover:text-blue-800"
         >
-          ← VideoSave Guides
+          ← SaveThisX Blog
         </Link>
 
         <header className="mt-10 border-b border-slate-200 pb-8">
