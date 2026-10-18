@@ -38,5 +38,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${siteUrl}/blog/instagram-video-download-not-working/`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
 }
