@@ -3,18 +3,18 @@ import Link from "next/link";
 import Article from "@/content/blog/how-to-download-instagram-videos-pc.mdx";
 
 export const metadata: Metadata = {
-  title: "How to Download Instagram Videos on PC",
+  title: "How to Download Instagram Videos on PC (Windows & Mac)",
   description:
-    "Learn how to download supported Instagram videos on your PC, find saved files, and troubleshoot common download problems.",
+    "Learn how to save supported public Instagram videos on Windows or Mac, find downloaded files, and troubleshoot common issues.",
   alternates: {
     canonical:
       "https://blog.savethisx.net/blog/how-to-download-instagram-videos-pc/",
   },
   openGraph: {
     type: "article",
-    title: "How to Download Instagram Videos on PC",
+    title: "How to Download Instagram Videos on PC (Windows & Mac)",
     description:
-      "A practical guide to saving accessible Instagram videos on a computer and fixing common download issues.",
+      "A practical Windows and Mac guide to saving accessible Instagram videos and finding downloads in your browser.",
     url: "https://blog.savethisx.net/blog/how-to-download-instagram-videos-pc/",
   },
 };
@@ -35,11 +35,12 @@ export default function InstagramVideosPcGuide() {
             Instagram Guides
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">
-            How to Download Instagram Videos on PC
+            How to Download Instagram Videos on PC (Windows &amp; Mac)
           </h1>
           <p className="mt-5 text-lg leading-8 text-slate-600">
-            Learn how to download Instagram videos on your computer, where to
-            find saved files, and how to troubleshoot common problems.
+            Learn how to save supported public Instagram videos on a Windows
+            PC or Mac, find the downloaded file, and troubleshoot common
+            problems.
           </p>
         </header>
 
