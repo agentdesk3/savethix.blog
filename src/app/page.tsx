@@ -56,6 +56,22 @@ const articles = [
     category: "Instagram Guides",
     readTime: "6 min read",
   },
+  {
+    title: "How to Download Instagram Stories",
+    description:
+      "Learn how to try downloading supported, active public Instagram Story videos and understand common limitations.",
+    href: "/blog/how-to-download-instagram-stories",
+    category: "Instagram Guides",
+    readTime: "5 min read",
+  },
+  {
+    title: "Instagram Video Download Not Working? 8 Fixes",
+    description:
+      "Check public access, copied links, quality settings, and download locations when an Instagram video download fails.",
+    href: "/blog/instagram-video-download-not-working",
+    category: "Instagram Troubleshooting",
+    readTime: "5 min read",
+  },
 ];
 
 export default function Home() {
