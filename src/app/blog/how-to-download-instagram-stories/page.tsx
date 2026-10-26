@@ -3,7 +3,7 @@ import Link from "next/link";
 import Article from "@/content/blog/how-to-download-instagram-stories.mdx";
 
 const articleUrl =
-  "https://blog.savethisx.net/blog/how-to-download-instagram-stories/";
+  "https://blog.savethisx.net/blog/how-to-download-instagram-stories";
 
 const articleTitle =
   "How to Download Instagram Stories: A Step-by-Step Guide";

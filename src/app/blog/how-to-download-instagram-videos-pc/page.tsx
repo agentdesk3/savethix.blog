@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     "Learn how to save supported public Instagram videos on Windows or Mac, find downloaded files, and troubleshoot common issues.",
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/how-to-download-instagram-videos-pc/",
+      "https://blog.savethisx.net/blog/how-to-download-instagram-videos-pc",
   },
   openGraph: {
     type: "article",
     title: "How to Download Instagram Videos on PC (Windows & Mac)",
     description:
       "A practical Windows and Mac guide to saving accessible Instagram videos and finding downloads in your browser.",
-    url: "https://blog.savethisx.net/blog/how-to-download-instagram-videos-pc/",
+    url: "https://blog.savethisx.net/blog/how-to-download-instagram-videos-pc",
   },
 };
 

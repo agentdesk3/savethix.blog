@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     "Find out why TikTok downloads fail and learn practical fixes for broken links, unavailable videos, connection issues, and incomplete downloads.",
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/why-cant-i-download-tiktok-videos/",
+      "https://blog.savethisx.net/blog/why-cant-i-download-tiktok-videos",
   },
   openGraph: {
     type: "article",
     title: "Why Can't I Download TikTok Videos?",
     description:
       "Troubleshoot TikTok download problems, from unavailable videos and broken links to connection and browser issues.",
-    url: "https://blog.savethisx.net/blog/why-cant-i-download-tiktok-videos/",
+    url: "https://blog.savethisx.net/blog/why-cant-i-download-tiktok-videos",
   },
 };
 

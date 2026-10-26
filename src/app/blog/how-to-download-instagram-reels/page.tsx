@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     "Learn how to download supported Instagram Reels, find saved videos on your device, and troubleshoot common download issues.",
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/how-to-download-instagram-reels/",
+      "https://blog.savethisx.net/blog/how-to-download-instagram-reels",
   },
   openGraph: {
     type: "article",
     title: "How to Download Instagram Reels",
     description:
       "A practical guide to downloading supported Instagram Reels and fixing common problems.",
-    url: "https://blog.savethisx.net/blog/how-to-download-instagram-reels/",
+    url: "https://blog.savethisx.net/blog/how-to-download-instagram-reels",
   },
 };
 

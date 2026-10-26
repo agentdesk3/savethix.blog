@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     "Learn the difference between saving an Instagram post in-app and downloading a video file to your phone's gallery.",
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/how-to-save-instagram-videos-to-gallery/",
+      "https://blog.savethisx.net/blog/how-to-save-instagram-videos-to-gallery",
   },
   openGraph: {
     type: "article",
     title: "How to Save Instagram Videos to Gallery",
     description:
       "A practical guide to saving Instagram videos to your phone's gallery and understanding in-app saves.",
-    url: "https://blog.savethisx.net/blog/how-to-save-instagram-videos-to-gallery/",
+    url: "https://blog.savethisx.net/blog/how-to-save-instagram-videos-to-gallery",
   },
 };
 

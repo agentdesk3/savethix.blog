@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     "Learn methods for downloading TikTok videos and understand the limitations of watermark-free downloads for supported links.",
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-without-watermark/",
+      "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-without-watermark",
   },
   openGraph: {
     type: "article",
     title: "How to Download TikTok Videos Without Watermark",
     description:
       "A practical guide to downloading TikTok videos without watermarks using available methods.",
-    url: "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-without-watermark/",
+    url: "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-without-watermark",
   },
 };
 

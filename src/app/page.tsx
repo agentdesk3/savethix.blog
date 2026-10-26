@@ -1,11 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://blog.savethisx.net/",
+  },
+};
 
 const articles = [
   {
     title: "How to Download TikTok Videos on iPhone",
     description:
       "Learn how to download a TikTok video on your iPhone, find saved files, and troubleshoot common download issues.",
-    href: "/blog/how-to-download-tiktok-videos-iphone/",
+    href: "/blog/how-to-download-tiktok-videos-iphone",
     category: "TikTok Guides",
     readTime: "5 min read",
   },
@@ -13,7 +20,7 @@ const articles = [
     title: "How to Download TikTok Videos Without Watermark",
     description:
       "Learn how to save accessible TikTok videos and understand the available download options and limitations.",
-    href: "/blog/how-to-download-tiktok-videos-without-watermark/",
+    href: "/blog/how-to-download-tiktok-videos-without-watermark",
     category: "TikTok Guides",
     readTime: "5 min read",
   },
@@ -21,7 +28,7 @@ const articles = [
     title: "How to Download Instagram Reels",
     description:
       "Follow practical steps for saving accessible Instagram Reels and troubleshoot common download problems.",
-    href: "/blog/how-to-download-instagram-reels/",
+    href: "/blog/how-to-download-instagram-reels",
     category: "Instagram Guides",
     readTime: "5 min read",
   },
@@ -29,7 +36,7 @@ const articles = [
     title: "Why Can't I Download TikTok Videos?",
     description:
       "Troubleshoot unavailable videos, invalid links, connection issues, and incomplete downloads.",
-    href: "/blog/why-cant-i-download-tiktok-videos/",
+    href: "/blog/why-cant-i-download-tiktok-videos",
     category: "TikTok Troubleshooting",
     readTime: "6 min read",
   },
@@ -37,7 +44,7 @@ const articles = [
     title: "How to Download Instagram Videos on PC",
     description:
       "Learn how to download supported Instagram videos on your computer and troubleshoot common issues.",
-    href: "/blog/how-to-download-instagram-videos-pc/",
+    href: "/blog/how-to-download-instagram-videos-pc",
     category: "Instagram Guides",
     readTime: "6 min read",
   },
@@ -45,7 +52,7 @@ const articles = [
     title: "How to Save Instagram Videos to Gallery",
     description:
       "Learn where Instagram downloads go on iPhone and Android and how to save supported videos to your device.",
-    href: "/blog/how-to-save-instagram-videos-to-gallery/",
+    href: "/blog/how-to-save-instagram-videos-to-gallery",
     category: "Instagram Guides",
     readTime: "6 min read",
   },

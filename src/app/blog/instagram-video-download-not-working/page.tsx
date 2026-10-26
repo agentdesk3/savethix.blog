@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     "Instagram video download not working? Check private accounts, removed posts, broken links, and connection issues with these practical fixes.",
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/instagram-video-download-not-working/",
+      "https://blog.savethisx.net/blog/instagram-video-download-not-working",
   },
   openGraph: {
     type: "article",
     title: "Instagram Video Download Not Working? 8 Fixes",
     description:
       "Troubleshoot Instagram download problems, from private accounts and removed posts to broken links and connection issues.",
-    url: "https://blog.savethisx.net/blog/instagram-video-download-not-working/",
+    url: "https://blog.savethisx.net/blog/instagram-video-download-not-working",
   },
 };
 

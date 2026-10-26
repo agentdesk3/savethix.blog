@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     "Learn how to save TikTok videos to your iPhone using TikTok's built-in option or SaveThisX for supported links.",
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone/",
+      "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone",
   },
   openGraph: {
     type: "article",
     title: "How to Download TikTok Videos on iPhone",
     description:
       "A practical guide to saving TikTok videos on iPhone with TikTok's download option or SaveThisX.",
-    url: "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone/",
+    url: "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone",
   },
 };
 
