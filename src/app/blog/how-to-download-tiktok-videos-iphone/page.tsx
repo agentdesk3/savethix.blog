@@ -1,21 +1,28 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ArticleStructuredData } from "@/components/ArticleStructuredData";
+import { ArticleBreadcrumbs } from "@/components/ArticleBreadcrumbs";
 import Article from "@/content/blog/how-to-download-tiktok-videos-iphone.mdx";
 
+const articleTitle = "How to Download TikTok Videos on iPhone";
+const articleDescription =
+  "Learn how to save TikTok videos to your iPhone using TikTok's built-in option or SaveThisX for supported links.";
+const articleUrl =
+  "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone";
+
 export const metadata: Metadata = {
-  title: "How to Download TikTok Videos on iPhone",
+  title: articleTitle,
   description:
-    "Learn how to save TikTok videos to your iPhone using TikTok's built-in option or SaveThisX for supported links.",
+    articleDescription,
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone",
+      articleUrl,
   },
   openGraph: {
     type: "article",
-    title: "How to Download TikTok Videos on iPhone",
+    title: articleTitle,
     description:
       "A practical guide to saving TikTok videos on iPhone with TikTok's download option or SaveThisX.",
-    url: "https://blog.savethisx.net/blog/how-to-download-tiktok-videos-iphone",
+    url: articleUrl,
   },
 };
 
@@ -23,12 +30,12 @@ export default function TikTokIphoneGuide() {
   return (
     <main className="min-h-screen bg-white px-6 py-12 text-slate-900 sm:py-16">
       <article className="mx-auto max-w-3xl">
-        <Link
-          href="/"
-          className="text-sm font-semibold text-blue-700 hover:text-blue-800"
-        >
-          ← SaveThisX Guides
-        </Link>
+        <ArticleStructuredData
+          title={articleTitle}
+          description={articleDescription}
+          url={articleUrl}
+        />
+        <ArticleBreadcrumbs title={articleTitle} url={articleUrl} />
 
         <header className="mt-10 border-b border-slate-200 pb-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-blue-700">

@@ -1,21 +1,28 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ArticleStructuredData } from "@/components/ArticleStructuredData";
+import { ArticleBreadcrumbs } from "@/components/ArticleBreadcrumbs";
 import Article from "@/content/blog/how-to-download-instagram-reels.mdx";
 
+const articleTitle = "How to Download Instagram Reels";
+const articleDescription =
+  "Learn how to download supported Instagram Reels, find saved videos on your device, and troubleshoot common download issues.";
+const articleUrl =
+  "https://blog.savethisx.net/blog/how-to-download-instagram-reels";
+
 export const metadata: Metadata = {
-  title: "How to Download Instagram Reels",
+  title: articleTitle,
   description:
-    "Learn how to download supported Instagram Reels, find saved videos on your device, and troubleshoot common download issues.",
+    articleDescription,
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/how-to-download-instagram-reels",
+      articleUrl,
   },
   openGraph: {
     type: "article",
-    title: "How to Download Instagram Reels",
+    title: articleTitle,
     description:
       "A practical guide to downloading supported Instagram Reels and fixing common problems.",
-    url: "https://blog.savethisx.net/blog/how-to-download-instagram-reels",
+    url: articleUrl,
   },
 };
 
@@ -23,12 +30,12 @@ export default function InstagramReelsGuide() {
   return (
     <main className="min-h-screen bg-white px-6 py-12 text-slate-900 sm:py-16">
       <article className="mx-auto max-w-3xl">
-        <Link
-          href="/"
-          className="text-sm font-semibold text-blue-700 hover:text-blue-800"
-        >
-          ← SaveThisX Blog
-        </Link>
+        <ArticleStructuredData
+          title={articleTitle}
+          description={articleDescription}
+          url={articleUrl}
+        />
+        <ArticleBreadcrumbs title={articleTitle} url={articleUrl} />
 
         <header className="mt-10 border-b border-slate-200 pb-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-blue-700">

@@ -1,21 +1,28 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ArticleStructuredData } from "@/components/ArticleStructuredData";
+import { ArticleBreadcrumbs } from "@/components/ArticleBreadcrumbs";
 import Article from "@/content/blog/why-cant-i-download-tiktok-videos.mdx";
 
+const articleTitle = "Why Can't I Download TikTok Videos?";
+const articleDescription =
+  "Find out why TikTok downloads fail and learn practical fixes for broken links, unavailable videos, connection issues, and incomplete downloads.";
+const articleUrl =
+  "https://blog.savethisx.net/blog/why-cant-i-download-tiktok-videos";
+
 export const metadata: Metadata = {
-  title: "Why Can't I Download TikTok Videos?",
+  title: articleTitle,
   description:
-    "Find out why TikTok downloads fail and learn practical fixes for broken links, unavailable videos, connection issues, and incomplete downloads.",
+    articleDescription,
   alternates: {
     canonical:
-      "https://blog.savethisx.net/blog/why-cant-i-download-tiktok-videos",
+      articleUrl,
   },
   openGraph: {
     type: "article",
-    title: "Why Can't I Download TikTok Videos?",
+    title: articleTitle,
     description:
       "Troubleshoot TikTok download problems, from unavailable videos and broken links to connection and browser issues.",
-    url: "https://blog.savethisx.net/blog/why-cant-i-download-tiktok-videos",
+    url: articleUrl,
   },
 };
 
@@ -23,12 +30,12 @@ export default function TikTokDownloadTroubleshootingGuide() {
   return (
     <main className="min-h-screen bg-white px-6 py-12 text-slate-900 sm:py-16">
       <article className="mx-auto max-w-3xl">
-        <Link
-          href="/"
-          className="text-sm font-semibold text-blue-700 hover:text-blue-800"
-        >
-          ← SaveThisX Blog
-        </Link>
+        <ArticleStructuredData
+          title={articleTitle}
+          description={articleDescription}
+          url={articleUrl}
+        />
+        <ArticleBreadcrumbs title={articleTitle} url={articleUrl} />
 
         <header className="mt-10 border-b border-slate-200 pb-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-blue-700">
